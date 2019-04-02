@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Presentations Day 1</title>
+  </head>
+  <body>
+    <!-- Indent using shortcut key (Alt + Shift + f) -->
+
+    <!-- <hgroup> is used to group headings -->
+    <!-- <hgroup> is a block element -->
+    <hgroup>
+      <!-- all tags <h1> - <h6> are block level elements -->
+      <h1>Main Heading</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+    </hgroup>
+
+    <!-- <strong> and <b> tags are both used to bold text. It is better to use <strong> tag, because most screen readers cannot read <b> tag for blind users -->
+    <p><strong>Pakistan</strong> is my country</p>
+    <p><b>Pakistan</b> is my country</p>
+
+    <!-- <em> and <i> tags are both used to italic text. It is better to use <em> tag, because most screen readers cannot read <i> tag for blind users -->
+    <p><em>Pakistan</em> is my country</p>
+    <p><i>Pakistan</i> is my country</p>
+
+    <p>You can <mark>highlight</mark> and <s>strikethrough</s> html elements</p>
+
+    <p>
+      You can use the q tag to write a quote like this:
+      <q>Honesty is the best policy</q>. Notice the q tag adds double quotes
+      automatically to the output (check the output on the web browser)
+    </p>
+
+    <!-- <address> semantic element is used for writing addresses. Its visual output is similar to <em> and <i> tag -->
+    <address>
+      You can contact us at<br />
+      techkaro.circle@gmail.com
+    </address>
+
+    <section>
+      <h2>Biryani Recipe</h2>
+      <h3>Ingredients</h3>
+      <!-- <ul> is used for un-ordered list (order does not matter. Simple bullet points.) -->
+      <ul type="circle">
+        <li>Rice</li>
+        <li>Chicken</li>
+        <li>Onion</li>
+      </ul>
+      <h3>Steps</h3>
+      <!-- <ol> is used for ordered list (the order matters) -->
+      <ol>
+        <li>Cook Rice</li>
+        <li>Cook Chicken</li>
+        <li>Mix and serve</li>
+      </ol>
+    </section>
+
+    <!-- <a> tags can be used to add hyperlinks to an external page -->
+    <!-- target attribute decides if the hyperlink opens on the same page, a new tab, or a new window -->
+    <a href="https://www.google.com" target="_blank">Go to Google</a>
+    <br>
+
+    <!-- <a> tags can be used to add hyperlinks to another page of your website. The href attribute will be given the relative path of that page -->
+    <a href="index-2.html" target="_blank">Go to Page 2 of this website</a>
+    <br>
+
+    <!-- <a> tags can also be used to link another element of the current page. In this case, the value of href attribute will be #id_of_another_html_element -->
+    <!-- id is a global attribute -->
+    <a href="#s2">Go to section 2</a>
+    <br>
+
+    <section id="s1">
+      <h4>Section # 1</h4>
+      <p>Para 1</p>
+      <p>Para 1</p>
+      <p>Para 1</p>
+      <p>Para 1</p>
+      <p>Para 1</p>
+      <p>Para 1</p>
+      <p>Para 1</p>
+      <p>Para 1</p>
+      <p>Para 1</p>
+      <p>Para 1</p>
+      <p>Para 1</p>
+      <p>Para 1</p>
+      <p>Para 1</p>
+    </section>
+    <section id="s2">
+      <h4>Section # 2</h4>
+      <p>Para 2</p>
+      <p>Para 2</p>
+      <p>Para 2</p>
+      <p>Para 2</p>
+      <p>Para 2</p>
+      <p>Para 2</p>
+      <p>Para 2</p>
+      <p>Para 2</p>
+      <p>Para 2</p>
+      <p>Para 2</p>
+      <p>Para 2</p>
+      <p>Para 2</p>
+      <p>Para 2</p>
+      <p>Para 2</p>
+      <p>Para 2</p>
+    </section>
+    <a href="#s1">Go back to section 1</a>
+  </body>
+</html>
