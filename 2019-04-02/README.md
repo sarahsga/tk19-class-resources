@@ -19,11 +19,11 @@ We studied:
 - [&lt;s&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s)
 - [&lt;q&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q)
 - [html lists &lt;ol&gt; &lt;ul&gt; &lt;li&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
-- [&lt;address&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address)
 - [&lt;a&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
     - for external links
     - to link to another page of your website
     - to link another HTML element inside the current page
+- [&lt;address&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address)
 - Using &lt;em&gt; instead of &lt;i&gt; for screen readers
 - Using &lt;strong&gt; instead of &lt;b&gt; for screen readers
 
