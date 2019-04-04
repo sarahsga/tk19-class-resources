@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Presentations Day # 2</title>
+  </head>
+  <body>
+    <!-- <img> tag is used to add images to a web page -->
+    <!-- alt attribute is used to describe the image for screen readers / blind users -->
+    <img
+      alt="yellow flower"
+      src="https://i.pinimg.com/originals/65/cd/0c/65cd0c9391cf8f96a861792162d7fd73.jpg"
+      height="300"
+    />
+
+    <!-- You can hyperlink images by wrapping them inside <a> tag -->
+    <a href="https://www.google.com">
+      <img
+        alt="Google logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"
+        height="100"
+        />
+    </a>
+
+    <!-- To write H₂O formula, you use <sub> subscript -->
+    <p>H<sub>2</sub>O</p>
+    <!-- To write x²+y² formula, you use <sub> subscript -->
+    <p>x<sup>2</sup>+y<sup>2</sup></p>
+
+    <!-- To make collapsible elements, <details> and <summary> tags are used -->
+    <details>
+      <summary>Click for more details</summary>
+      <p>My name is Sarah</p>
+      <p>I am the Lead Instructor at Tech Karo</p>
+      <p>Tech Karo is a web dev course</p>
+    </details>
+
+    <!-- To create a dictionary of words, you use a "description list" <dl> element -->
+    <dl>
+      <dt>HTML</dt>
+      <dd>A language used to make structure of a web page</dd>
+      <dt>CSS</dt>
+      <dd>A language used to add presentation to a web page</dd>
+      <dt>JS</dt>
+      <dd>A language used to add behaviour to a web page</dd>
+    </dl>
+
+    <!-- <code> tag -->
+    <p>Here's a line of JS code</p>
+    <code>let colors = ['yellow', 'blue', 'green'];</code>
+
+    <!-- <abbr> tag for abbreviations -->
+    <p>
+      Using <abbr title="Hyper Text Markup Language">HTML</abbr> is fun and
+      easy!
+    </p>
+
+    <!-- <pre> tag to display whitespaces -->
+    <!-- compare the following two -->
+    <p>
+      ___________________________ < I'm an expert in my field. >
+      --------------------------- \ ^__^ \ (oo)\_______ (__)\ )\/\ ||----w | ||
+      ||
+    </p>
+    <pre>
+            ___________________________
+            < I'm an expert in my field. >
+              ---------------------------
+                     \   ^__^ 
+                      \  (oo)\_______
+                         (__)\       )\/\
+                             ||----w |
+                             ||     ||
+    </pre>
+
+    <!-- <cite> tag for citation / reference -->
+    <img
+      alt="snow white"
+      src="https://images.theconversation.com/files/200210/original/file-20171220-4968-9837dc.png?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip"
+    />
+    <p>
+      The above image has been taken from the movie
+      <cite>Cinderella & the Seven Dwarfs</cite> - All rights reserved to Disney
+    </p>
+
+    <!-- blockquote for a block-level quotation -->
+    <blockquote cite="Harry Potter Books">
+      <p>
+        You fail to recognize that it matters not what someone is born, but what
+        they grow to be!
+      </p>
+    </blockquote>
+
+    <!-- <kbd> for keyboard keys -->
+    <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text.</p>
+  </body>
+</html>
