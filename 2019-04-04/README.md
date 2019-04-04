@@ -22,5 +22,5 @@ We studied the following HTML tags
 
 We also discussed:
 - semantic elements
-    - &lt;i&gt; vs &lt;cite&gt;
-    - title attribute with vs &lt;abbr&gt;
+    - `<i>` vs `<cite>`;
+    - `title` attribute with vs `<abbr>`;
