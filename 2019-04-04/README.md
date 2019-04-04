@@ -8,7 +8,7 @@ We studied the following HTML tags
 
 - [&lt;img&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
     - Use of `alt` attribute for screen readers / blind users
-    - Hyperlink images using `&lt;a&gt`;
+    - Hyperlink images using `<a>`;
 - [&lt;sub&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
 - [&lt;sup&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup)
 - [&lt;details&gt; / &lt;summary&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details)
