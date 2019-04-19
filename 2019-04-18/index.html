@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Practicing Form Validations</title>
+  </head>
+  <body>
+    <form action="thanks.html" target="_blank">
+      <fieldset>
+        <label for="fullNameInput">Full Name </label>
+        <!-- Using "autofocus" boolean attribute to focus keyboard on this input element when the page loads -->
+        <!-- Using required attribute for form validation -->
+        <input id="fullNameInput" autofocus required />
+      </fieldset>
+      <fieldset>
+        <label for="ageInput">Age </label>
+        <!-- Using "min", "max", "type" and "required" attributes for form validations -->
+        <input id="ageInput" min="1" max="100" type="number" required />
+      </fieldset>
+      <fieldset>
+        <label for="emailInput">Email: </label>
+        <!-- Using "type" and "required" attributes for form validations -->        
+        <input id="emailInput" type="email" required />
+      </fieldset>
+      <fieldset>
+        <label for="pwdInput">Password: </label>
+        <!-- Using "required" attributes for form validations -->        
+        <input id="pwdInput" type="password" required />
+      </fieldset>
+      <fieldset>
+        <label for="happyInput">Password: </label>
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range#Additional_attributes -->
+        <input id="happyInput" type="range" min="0" max="100" step="5" required />
+      </fieldset>
+      <input type="submit" value="Sign Up!">
+    </form>
+  </body>
+</html>
