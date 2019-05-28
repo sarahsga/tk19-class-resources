@@ -19,3 +19,4 @@ TechKaro is an initiative by CIRCLE Women, a social enterprise working towards w
 | [11th April](https://github.com/sarahsga/tk19-class-resources/tree/master/2019-04-11) | Github<br> Github Pages | Published a website |
 | [13th April](https://github.com/sarahsga/tk19-class-resources/tree/master/2019-04-13) | Github Issues | Created new Issues in a repo |
 | [18th April](https://github.com/sarahsga/tk19-class-resources/tree/master/2019-04-18) | HTML Form Validations | HTML Presentations Day # 3 |
+| [28th May](https://github.com/sarahsga/tk19-class-resources/tree/master/2019-05-28) | Adding JS to webpage | Chrome Dev Tools (breakpoints) |
