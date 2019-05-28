@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9dc9f;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: fantasy;
+}
+
+button {
+    padding: 10px 3em;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-family: 'Courier New';
+    background-color: #8bc34a;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #0707078f;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-bottom: 1em;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #222;
+    color: #8bc34a;
+}
+
+button:active {
+    box-shadow: none;
+    color: #b86e74;
+}
+
+input {
+    padding: 1em;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #363d3d82;
+    background-color: #e8e8e8;
+}
