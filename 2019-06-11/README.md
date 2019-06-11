@@ -4,7 +4,8 @@
 
 We used [querySelector()](https://www.w3schools.com/jsref/met_document_queryselector.asp) to create a Dark / Light theme selector app.
 
-In this project, we used the following new concepts
+In this project, we used the following new concepts:
+- [classList](https://www.w3schools.com/jsref/prop_element_classlist.asp)
 - [if / else statements](https://www.w3schools.com/js/js_if_else.asp) (اگر / ورنہ)
 - [JS Dates](https://www.w3schools.com/js/js_dates.asp) to change theme depending on the time of the day
 ```
