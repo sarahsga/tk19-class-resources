@@ -1,0 +1,23 @@
+.light {
+    background-color: yellow;
+}
+
+.light h1 {
+    color: blue;
+}
+
+.light button {
+    background-color: orange;
+}
+
+.dark {
+    background-color: #222;
+}
+
+.dark h1 {
+    color: white;
+}
+
+.dark button {
+    background-color: orange;
+}
