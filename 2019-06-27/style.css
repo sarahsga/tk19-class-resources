@@ -1,0 +1,16 @@
+ul {
+    list-style: none;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+li {
+    padding: 5px;
+}
+
+li:not(:last-child) {
+    border-bottom: 1px solid black;
+}
